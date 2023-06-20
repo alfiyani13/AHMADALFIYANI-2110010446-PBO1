@@ -4,6 +4,8 @@
  */
 package ahmad.alfi.yani.pkg2110010446;
 
+import forms.formUtama;
+
 /**
  *
  * @author Akhmad Alfiani
@@ -20,6 +22,8 @@ public class AhmadAlfiYani2110010446 {
         obj.setPassword("1");
         System.out.println("Username :"+ obj.getUsername());
         System.out.println("Password :"+ obj.getPassword());
+        
+        new formUtama().setVisible(true);
         
     }
     
